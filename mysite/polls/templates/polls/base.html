@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: "Inria Sans";
+  color: #222;
+}
+
+/* Voting Option */
+.option {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: #f1f1f1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+
+.option:hover {
+  background: #e8e8e8;
+}
+
+.option .label {
+  flex: 1;
+}
+
+.option .buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.option .fa {
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.option .fa:hover {
+  color: #000;
+}
+
+/* Submit Button */
+.button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Polling App</title>
+</head>
+<body>
+{% include "polls/header.html" %}
+{% block main_content %}
+{% endblock %}
+{% include "polls/footer.html" %}
+</body>
+</html>

@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84527ce-600a-4ab1-9535-ec581cf93d0a" name="Changes" comment="Second Commit">
-      <change afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b84527ce-600a-4ab1-9535-ec581cf93d0a" name="Changes" comment="Getting it all off the ground...">
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/polls/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/contact_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -85,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744571660494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Getting it all off the ground...">
+      <option name="closed" value="true" />
+      <created>1744580385957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744580385958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Getting it all off the ground..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting it all off the ground..." />
   </component>
 </project>
