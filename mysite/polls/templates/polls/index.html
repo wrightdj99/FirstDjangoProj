@@ -1,6 +1,7 @@
 {% extends 'polls/base.html'%}
 {% block main_content %}
 {% if latest_questions %}
+<div class="poll-content">
     <ul>
         {% for question in latest_questions %}
             <li><a href={% url "detail" question.id %}><b>{{question.question_text}}</b></a></li>
@@ -9,4 +10,5 @@
 {% else %}
     <b>No polls are active at the moment...</b>
 {% endif %}
+</div>
 {% endblock %}
