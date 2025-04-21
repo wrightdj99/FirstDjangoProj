@@ -7,8 +7,10 @@
             <li><a href={% url "detail" question.id %}><b>{{question.question_text}}</b></a></li>
         {% endfor %}
     </ul>
-{% else %}
-    <b>No polls are active at the moment...</b>
-{% endif %}
 </div>
+{% else %}
+<div class="poll-content">
+    <b>No polls are active at the moment!!!</b>
+</div>
+{% endif %}
 {% endblock %}
