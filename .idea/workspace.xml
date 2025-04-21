@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84527ce-600a-4ab1-9535-ec581cf93d0a" name="Changes" comment="Adding slightly better styling part 2" />
+    <list default="true" id="b84527ce-600a-4ab1-9535-ec581cf93d0a" name="Changes" comment="Font color fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +152,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745263775853</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding slightly better styling part 3">
+      <option name="closed" value="true" />
+      <created>1745263895682</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745263895682</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Quick bug fix">
+      <option name="closed" value="true" />
+      <created>1745263981580</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745263981580</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Font color fix">
+      <option name="closed" value="true" />
+      <created>1745264030981</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745264030981</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +210,9 @@
     <MESSAGE value="Testing Commit For AWS2" />
     <MESSAGE value="Adding slightly better styling" />
     <MESSAGE value="Adding slightly better styling part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding slightly better styling part 2" />
+    <MESSAGE value="Adding slightly better styling part 3" />
+    <MESSAGE value="Quick bug fix" />
+    <MESSAGE value="Font color fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Font color fix" />
   </component>
 </project>
