@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b84527ce-600a-4ab1-9535-ec581cf93d0a" name="Changes" comment="Priming for deployment" />
+    <list default="true" id="b84527ce-600a-4ab1-9535-ec581cf93d0a" name="Changes" comment="Testing Commit For AWS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745254381207</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Testing Commit For AWS">
+      <option name="closed" value="true" />
+      <created>1745255429274</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745255429274</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +146,7 @@
     <MESSAGE value="Getting it all off the ground..." />
     <MESSAGE value="Got everything all ready to go." />
     <MESSAGE value="Priming for deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Priming for deployment" />
+    <MESSAGE value="Testing Commit For AWS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Commit For AWS" />
   </component>
 </project>
